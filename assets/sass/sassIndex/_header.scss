@@ -1,11 +1,22 @@
+.header_layout,
+.header_nav,
+.header_h1 {
+    display: flex;
+    align-items: center;
+}
+
 .header_layout {
-    display: flex;
+    justify-content: space-around;
+    margin-top: 3.5rem;
+    line-height: 3rem;
 }
 
-.header_nav {
-    display: flex;
+.header_h1 {
+    font-size: 1.3rem;
 }
 
-.header_nav {
-    display: flex;
+.header_nav_li {
+    color: rgb(170, 173, 178);
+    font-size: 2.2rem;
+    gap: 1rem;
 }
